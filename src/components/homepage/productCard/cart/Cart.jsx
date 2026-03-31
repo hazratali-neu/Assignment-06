@@ -1,9 +1,11 @@
 import React from 'react';
 import SelectedPlayer from '../../../ui/selectedPlayer/SelectedPlayer';
 import img from '../../../../assets/products/shopping-cart.png'
+import { toast } from 'react-toastify';
 const Cart = ({ selectedPlayers,sum,setSum, setSelectedPlayers }) => {
     const handleClear = () => {
         setSelectedPlayers([]);
+        toast.error("Wow card clear!");
     }
 
     return (
