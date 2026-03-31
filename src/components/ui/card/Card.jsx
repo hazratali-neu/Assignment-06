@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 const Card = ({ data,sum,setSum ,selectedPlayers,setSelectedPlayers}) => {
     
   const [btnSelect,setbtnSelect]=useState(false)
@@ -6,6 +7,7 @@ const Card = ({ data,sum,setSum ,selectedPlayers,setSelectedPlayers}) => {
      setSum(sum+=data.price)
      setSelectedPlayers([...selectedPlayers,data])
      setbtnSelect(!btnSelect)
+     toast.success("Wow card added!")
   }
     return (
         <div>

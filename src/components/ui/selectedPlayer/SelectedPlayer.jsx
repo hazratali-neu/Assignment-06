@@ -1,10 +1,13 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
-const SelectedPlayer = ({selectedPlayers, selectedPlayer,setSelectedPlayers }) => {
+const SelectedPlayer = ({selectedPlayers,sum,setSum, selectedPlayer,setSelectedPlayers }) => {
 
     const handleRemove=(selectedPlayer)=>{
       const filteredArray= selectedPlayers.filter(singlePlayer=>singlePlayer.name!==selectedPlayer.name)
       setSelectedPlayers(filteredArray)
+      toast.error("Wow card removed!")
+      setSum(sum-selectedPlayer.price)
     }
   return (
     <div className='max-w-[1200px] mb-5 mx-auto'>

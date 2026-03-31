@@ -7,6 +7,7 @@ import Navber from './components/navber/Navber'
 import Threecard from './components/homepage/threecard/Threecard'
 import Footer from './components/footer/Footer'
 import Layoutthere from './components/homepage/layouthree/Layoutthere'
+import { ToastContainer } from 'react-toastify'
 
 
 const promise=async()=>{
@@ -30,6 +31,8 @@ function App() {
       <Layoutthere></Layoutthere>
       <Threecard></Threecard>
       <Footer></Footer>
+
+       <ToastContainer />
     </>
   )
 }

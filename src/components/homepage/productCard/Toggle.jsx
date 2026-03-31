@@ -20,7 +20,7 @@ const Toggle = ({ promiseData}) => {
             {
                 selected==='Products'?
                 <Products sum={sum} setSum={setSum} setSelectedPlayers={setSelectedPlayers} selectedPlayers={selectedPlayers} datas={datas}></Products>:
-                <Cart sum={sum}  setSelectedPlayers={setSelectedPlayers} selectedPlayers={selectedPlayers} ></Cart>
+                <Cart sum={sum} setSum={setSum}  setSelectedPlayers={setSelectedPlayers} selectedPlayers={selectedPlayers} ></Cart>
             }
         </div>
     );
