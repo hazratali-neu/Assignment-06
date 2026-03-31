@@ -5,7 +5,7 @@ const Threecard = () => {
         <div className='mt-28'>
             <h1 className='text-center text-[#101727] mb-4 font-extrabold text-5xl'>Simple, Transparent Pricing</h1>
             <p className='text-center text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
-            <div className='max-w-[1200px] mx-auto grid grid-cols-3'>
+            <div className='max-w-[1200px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3'>
                 <div className='p-6  space-y-2 rounded-2xl'>
                     <div className="card bg-base-100 shadow-sm">
                         <div className="card-body">

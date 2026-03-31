@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div>
             <footer className="bg-[#101727] pt-28 pb-7">
-                <div className='max-w-[1200px] justify-center flex  gap-28 border mx-auto'>
+                <div className='max-w-[1200px] flex flex-col lg:flex-row justify-center gap-10 lg:gap-28 mx-auto text-center lg:text-left'>
                     <nav className='flex space-y-2 flex-col'>
                         <h6 className="text-2xl font-bold text-white">DigiTools</h6>
                         <p className='text-[#FFFFFF]'>Premium digital tools for creators, <br /> professionals, and businesses. Work smarter <br /> with our suite of powerful tools.</p>

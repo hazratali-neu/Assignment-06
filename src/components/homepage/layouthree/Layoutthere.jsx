@@ -7,7 +7,7 @@ const Layoutthere = () => {
         <div className='max-w-[1200px] space-y-4 mt-28 mt-28 mx-auto'>
             <h1 className='text-center text-5xl font-extrabold text-[#101727]'>Get Started in 3 Steps</h1>
             <p className='text-center'>Start using premium digital tools in minutes, not hours.</p>
-            <div className='grid grid-cols-3 gap-7 mt-10'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 mt-10'>
                 <div className='bg-white shadow-lg rounded-2xl space-y-4 text-center'>
                     <div className='flex justify-end px-5 py-5'>
                         <div className='w-[30px] flex justify-center items-center text-white rounded-full h-[30px] bg-linear-to-r from-[#4F39F6] to-[#9514FA]'>
