@@ -19,7 +19,10 @@ const Navber = ({selectedPlayers}) => {
                 <div className="navbar-end gap-4">
                     <div className='relative'>
                         <img className='w-[25px] h-[25px]' src={cart} alt="" />
-                        <div className="badge absolute -top-3 left-1 badge-sm rounded-full bg-red-500">{selectedPlayers.length}</div>
+                        {selectedPlayers.length>0?
+                        (<div className="badge absolute -top-3 left-1 badge-sm rounded-full bg-red-500">{selectedPlayers.length}</div>)
+                        :('')
+                        }
                     </div>
                     <p  className='text-[16px] font-semibold text-[#101727]'>Login</p>
                     <a className="btn text-[#FFFFFF] bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full">Get Started</a>
