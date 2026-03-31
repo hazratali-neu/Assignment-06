@@ -2,10 +2,10 @@ import React, { use, useState } from 'react';
 import Products from './products/Products';
 import Cart from './cart/Cart';
 
-const Toggle = ({ promiseData}) => {
+const Toggle = ({ promiseData,selectedPlayers,setSelectedPlayers}) => {
     const datas=use(promiseData);
     const [selected, setSelected] = useState("Products")
-     const [selectedPlayers, setSelectedPlayers] = useState([]);
+    
      const [sum,setSum]=useState(0)
     return (
         <div className='text-center space-y-5 mb-10'>

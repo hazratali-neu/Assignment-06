@@ -1,4 +1,4 @@
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 import './App.css'
 import Banner from './components/homepage/banner/Banner'
 import Base from './components/homepage/base/Base'
@@ -19,14 +19,14 @@ const promise=async()=>{
 const promiseData=promise();
 function App() {
 
-
+ const [selectedPlayers, setSelectedPlayers] = useState([]);
   return (
     <>
-      <Navber></Navber>
+      <Navber selectedPlayers={selectedPlayers}></Navber>
       <Banner></Banner>
       <Base></Base>
       <Suspense fallback={<h2>Data loading...</h2>}>
-        <Toggle promiseData={promiseData}></Toggle>
+        <Toggle setSelectedPlayers={setSelectedPlayers} selectedPlayers={selectedPlayers} promiseData={promiseData}></Toggle>
       </Suspense>
       <Layoutthere></Layoutthere>
       <Threecard></Threecard>
