@@ -38,7 +38,9 @@ const Threecard = () => {
                     </div>
                 </div>
                 <div className=' p-6 space-y-1 rounded-2xl'>
-                    <div className="card  bg-linear-to-r from-[#4F39F6] to-[#9514FA] shadow-sm">
+                    
+                    <div className="card relative  bg-linear-to-r from-[#4F39F6] to-[#9514FA] shadow-sm">
+                        <span className="badge badge-xs bg-[#FEF3C6] absolute right-35 py-3 -top-2 badge-warning">Most Popular</span>
                         <div className="card-body">
                             <h2 className='text-white text-2xl font-bold'>Pro</h2>
                             <p className='text-[#FFFFFF]'>Best for professionals</p>

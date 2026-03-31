@@ -5,6 +5,7 @@ import Base from './components/homepage/base/Base'
 import Toggle from './components/homepage/productCard/Toggle'
 import Navber from './components/navber/Navber'
 import Threecard from './components/homepage/threecard/Threecard'
+import Footer from './components/footer/Footer'
 
 
 const promise=async()=>{
@@ -26,6 +27,7 @@ function App() {
         <Toggle promiseData={promiseData}></Toggle>
       </Suspense>
       <Threecard></Threecard>
+      <Footer></Footer>
     </>
   )
 }
