@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Build modern professional resumes with ATS-friendly templates.",
+    "price": 19,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://i.ibb.co.com/Xx5kv5gf/writing-2327400-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Create a stunning personal portfolio website in minutes.",
+    "price": 9,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Responsive layout", "SEO friendly pages", "Easy customization"],
+    "icon": "https://i.ibb.co.com/svvnYdhG/social-media.png"
+  },
+  {
+    "id": 3,
+    "name": "Job Tracker Premium",
+    "description": "Track your job applications and interviews with a smart dashboard.",
+    "price": 5,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Application tracking", "Interview reminders", "Analytics reports"],
+    "icon": "https://i.ibb.co.com/FqhcpQWL/shopping-cart.png"
+  },
+  {
+    "id": 4,
+    "name": "Cover Letter Generator",
+    "description": "Generate professional cover letters quickly with AI assistance.",
+    "price": 12,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["AI suggestions", "Multiple formats", "Instant download"],
+    "icon": "https://i.ibb.co.com/4gR6f90Q/portfolio.png"
+  },
+  {
+    "id": 5,
+    "name": "LinkedIn Profile Booster",
+    "description": "Optimize your LinkedIn profile to get more recruiter attention.",
+    "price": 7,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Headline generator", "Keyword optimization", "Profile checklist"],
+    "icon": "https://i.ibb.co.com/fYHkmHmh/operation.png"
+  },
+  {
+    "id": 6,
+    "name": "Interview Prep Pack",
+    "description": "Practice top interview questions with expert-crafted answers.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["200+ questions", "Mock interview guide", "HR tips & tricks"],
+    "icon": "https://i.ibb.co.com/vxBrC53v/design-tool.png"
+  }
+ 
+]
