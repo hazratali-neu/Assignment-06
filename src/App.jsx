@@ -6,6 +6,7 @@ import Toggle from './components/homepage/productCard/Toggle'
 import Navber from './components/navber/Navber'
 import Threecard from './components/homepage/threecard/Threecard'
 import Footer from './components/footer/Footer'
+import Layoutthere from './components/homepage/layouthree/Layoutthere'
 
 
 const promise=async()=>{
@@ -26,6 +27,7 @@ function App() {
       <Suspense fallback={<h2>Data loading...</h2>}>
         <Toggle promiseData={promiseData}></Toggle>
       </Suspense>
+      <Layoutthere></Layoutthere>
       <Threecard></Threecard>
       <Footer></Footer>
     </>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Threecard = () => {
     return (
-        <div>
+        <div className='mt-28'>
             <h1 className='text-center text-[#101727] mb-4 font-extrabold text-5xl'>Simple, Transparent Pricing</h1>
             <p className='text-center text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             <div className='max-w-[1200px] mx-auto grid grid-cols-3'>
