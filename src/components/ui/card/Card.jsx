@@ -5,6 +5,12 @@ const Card = ({ data,sum,setSum ,selectedPlayers,setSelectedPlayers}) => {
   const [btnSelect,setbtnSelect]=useState(false)
   const handleClickCart=()=>{
      setSum(sum+=data.price)
+     const Existing=selectedPlayers.find(player=>player.name===data.name)
+     if(Existing){
+        toast.error("sorry card is already added!")
+        return;
+     }
+    
      setSelectedPlayers([...selectedPlayers,data])
      setbtnSelect(!btnSelect)
      toast.success("Wow card added!")
